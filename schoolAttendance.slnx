@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="SchoolAttendance.Api/SchoolAttendance.Api.csproj" />
+  <Project Path="schoolattendance.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>

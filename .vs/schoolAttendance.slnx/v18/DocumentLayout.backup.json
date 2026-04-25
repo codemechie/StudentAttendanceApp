@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\pages\\signin.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\pages\\signin.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-04-25T13:58:09.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-25T13:54:55.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\main.jsx",
+              "RelativeDocumentMoniker": "src\\main.jsx",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\main.jsx",
+              "RelativeToolTip": "src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-25T12:18:29.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\Home.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Home.jsx",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\Home.jsx",
+              "RelativeToolTip": "src\\pages\\Home.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-25T12:18:25.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignIn.jsx",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\SignIn.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\SignIn.jsx",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\SignIn.jsx",
+              "RelativeToolTip": "src\\pages\\SignIn.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-25T12:18:13.392Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
