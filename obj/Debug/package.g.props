@@ -11,6 +11,7 @@
     <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
     <PackageJsonDependenciesTailwindcssVite Condition="$(PackageJsonDependenciesTailwindcssVite) == ''">^4.2.4</PackageJsonDependenciesTailwindcssVite>
     <PackageJsonDependenciesLucideReact Condition="$(PackageJsonDependenciesLucideReact) == ''">^1.11.0</PackageJsonDependenciesLucideReact>
+    <PackageJsonDependenciesPapaparse Condition="$(PackageJsonDependenciesPapaparse) == ''">^5.5.3</PackageJsonDependenciesPapaparse>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^19.2.5</PackageJsonDependenciesReact>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^19.2.5</PackageJsonDependenciesReactDom>
     <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">^7.14.2</PackageJsonDependenciesReactRouterDom>
