@@ -6,6 +6,7 @@ import { UserCircle, LogOut, Calendar, X, ChevronDown } from 'lucide-react';
 export default function ProfileDropdown() {
     const [isOpen, setIsOpen] = useState(false);
     const [showAttendanceModal, setShowAttendanceModal] = useState(false);
+    const [selectedRecord, setSelectedRecord] = useState(null); // Track which record was clicked
 
     // Default to current month
     const currentDate = new Date();
@@ -19,17 +20,17 @@ export default function ProfileDropdown() {
     const teacherName = "Jane Doe";
     const teacherUsername = "jane.doe123";
 
-    // Mock read-only attendance data
+    // Mock read-only attendance data with specific absent students
     const mockAttendanceHistory = {
         'April': [
-            { date: 'Apr 01, 2026', present: 28, absent: 2 },
-            { date: 'Apr 02, 2026', present: 29, absent: 1 },
-            { date: 'Apr 03, 2026', present: 25, absent: 5 },
+            { id: 1, date: 'Apr 01, 2026', present: 28, absent: 2, absentStudents: ['Aarav Patel', 'Meera Sharma'] },
+            { id: 2, date: 'Apr 02, 2026', present: 29, absent: 1, absentStudents: ['Rohan Desai'] },
+            { id: 3, date: 'Apr 03, 2026', present: 25, absent: 5, absentStudents: ['Arjun Nair', 'Priya Gupta', 'Neil Mehta', 'Riya Choudhury', 'Jayant Agarwal'] },
             // ... more days
         ],
         'March': [
-            { date: 'Mar 01, 2026', present: 30, absent: 0 },
-            { date: 'Mar 02, 2026', present: 27, absent: 3 },
+            { id: 4, date: 'Mar 01, 2026', present: 30, absent: 0, absentStudents: [] },
+            { id: 5, date: 'Mar 02, 2026', present: 27, absent: 3, absentStudents: ['Sneha Reddy', 'Vihaan Singh', 'Anaya Verma'] },
             // ... more days
         ]
     };
@@ -91,7 +92,10 @@ export default function ProfileDropdown() {
                         <div className="flex justify-between items-center p-6 border-b border-gray-100">
                             <h2 className="text-xl font-bold text-gray-900">Attendance History</h2>
                             <button 
-                                onClick={() => setShowAttendanceModal(false)}
+                                onClick={() => {
+                                    setShowAttendanceModal(false);
+                                    setSelectedRecord(null); // Clean up state
+                                }}
                                 className="text-gray-400 hover:text-gray-600 p-2 rounded-full hover:bg-gray-100"
                             >
                                 <X className="h-5 w-5" />
@@ -130,10 +134,36 @@ export default function ProfileDropdown() {
                                     </thead>
                                     <tbody className="bg-white divide-y divide-gray-200">
                                         {mockAttendanceHistory[selectedMonth]?.map((record, i) => (
-                                            <tr key={i} className="hover:bg-gray-50">
-                                                <td className="px-6 py-4 whitespace-nowrap text-gray-900 font-medium">{record.date}</td>
-                                                <td className="px-6 py-4 whitespace-nowrap text-center text-green-600 font-semibold">{record.present}</td>
-                                                <td className="px-6 py-4 whitespace-nowrap text-center text-red-600 font-semibold">{record.absent}</td>
+                                            <tr 
+                                                key={i} 
+                                                onClick={() => setSelectedRecord(selectedRecord?.id === record.id ? null : record)}
+                                                className="hover:bg-gray-50 cursor-pointer transition-colors"
+                                            >
+                                                <td className="px-6 py-4 whitespace-nowrap">
+                                                    <div className="text-gray-900 font-medium">{record.date}</div>
+
+                                                    {/* Expanded Student View */}
+                                                    {selectedRecord?.id === record.id && (
+                                                        <div className="mt-3 bg-red-50 p-3 rounded-md border border-red-100">
+                                                            <p className="text-xs font-bold text-red-800 uppercase tracking-wider mb-2">Absent Students</p>
+                                                            {record.absentStudents.length > 0 ? (
+                                                                <ul className="text-sm text-red-700 space-y-1">
+                                                                    {record.absentStudents.map((student, idx) => (
+                                                                        <li key={idx} className="flex items-center">
+                                                                            <span className="w-1.5 h-1.5 bg-red-400 rounded-full mr-2"></span>
+                                                                            {student}
+                                                                        </li>
+                                                                    ))}
+                                                                </ul>
+                                                            ) : (
+                                                                <p className="text-sm text-green-600 font-medium">Perfect attendance! Nobody was absent.</p>
+                                                            )}
+                                                        </div>
+                                                    )}
+
+                                                </td>
+                                                <td className="px-6 py-4 whitespace-nowrap text-center text-green-600 font-semibold align-text-top">{record.present}</td>
+                                                <td className="px-6 py-4 whitespace-nowrap text-center text-red-600 font-semibold align-text-top">{record.absent}</td>
                                             </tr>
                                         )) || (
                                             <tr>

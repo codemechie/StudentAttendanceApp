@@ -1,8 +1,28 @@
+using Microsoft.EntityFrameworkCore;
+using SchoolAttendance.Api.Data;
+using SchoolAttendance.Api.Endpoints;
+
 var builder = WebApplication.CreateBuilder(args);
 
+// Ensure our React Vite frontend (localhost:5173 or others) can query this API openly
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:5173") // Typical Vite port
+                   .AllowAnyHeader()
+                   .AllowAnyMethod();
+        });
+});
+
 // Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+// Register the DbContext using the SQLite connection string
+builder.Services.AddDbContext<SchoolDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
 
 var app = builder.Build();
 
@@ -13,6 +33,13 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// 1) Apply CORS before hitting the routes
+app.UseCors("AllowFrontend");
+
+// 2) Map our separate logic clusters using Minimal APIs
+app.MapStudentEndpoints();
+app.MapAttendanceEndpoints();
 
 var summaries = new[]
 {

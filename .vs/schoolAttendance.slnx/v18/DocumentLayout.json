@@ -3,20 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\pages\\attendance.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\pages\\attendance.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\development.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:development.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74DAF28-5353-5E52-75B8-E0A3AC24CF38}|SchoolAttendance.Api\\SchoolAttendance.Api.csproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\schoolattendance.api\\data\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74DAF28-5353-5E52-75B8-E0A3AC24CF38}|SchoolAttendance.Api\\SchoolAttendance.Api.csproj|solutionrelative:schoolattendance.api\\data\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\schoolattendance.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:schoolattendance.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\schoolattendance.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:schoolattendance.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74DAF28-5353-5E52-75B8-E0A3AC24CF38}|SchoolAttendance.Api\\SchoolAttendance.Api.csproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\schoolattendance.api\\endpoints\\attendanceendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74DAF28-5353-5E52-75B8-E0A3AC24CF38}|SchoolAttendance.Api\\SchoolAttendance.Api.csproj|solutionrelative:schoolattendance.api\\endpoints\\attendanceendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\schoolattendance.api\\models\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:schoolattendance.api\\models\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74DAF28-5353-5E52-75B8-E0A3AC24CF38}|SchoolAttendance.Api\\SchoolAttendance.Api.csproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\schoolattendance.api\\endpoints\\studentendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74DAF28-5353-5E52-75B8-E0A3AC24CF38}|SchoolAttendance.Api\\SchoolAttendance.Api.csproj|solutionrelative:schoolattendance.api\\endpoints\\studentendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74DAF28-5353-5E52-75B8-E0A3AC24CF38}|SchoolAttendance.Api\\SchoolAttendance.Api.csproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\schoolattendance.api\\models\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74DAF28-5353-5E52-75B8-E0A3AC24CF38}|SchoolAttendance.Api\\SchoolAttendance.Api.csproj|solutionrelative:schoolattendance.api\\models\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74DAF28-5353-5E52-75B8-E0A3AC24CF38}|SchoolAttendance.Api\\SchoolAttendance.Api.csproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\schoolattendance.api\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74DAF28-5353-5E52-75B8-E0A3AC24CF38}|SchoolAttendance.Api\\SchoolAttendance.Api.csproj|solutionrelative:schoolattendance.api\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74DAF28-5353-5E52-75B8-E0A3AC24CF38}|SchoolAttendance.Api\\SchoolAttendance.Api.csproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\schoolattendance.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74DAF28-5353-5E52-75B8-E0A3AC24CF38}|SchoolAttendance.Api\\SchoolAttendance.Api.csproj|solutionrelative:schoolattendance.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\mycomponents\\profiledropdown.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\mycomponents\\profiledropdown.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\pages\\changeclass.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\pages\\changeclass.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\pages\\phonebook.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\pages\\phonebook.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -27,20 +63,20 @@
       "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\pages\\changeclass.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\pages\\changeclass.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\pages\\phonebook.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\pages\\phonebook.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\pages\\attendance.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\pages\\attendance.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\mycomponents\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|solutionrelative:src\\mycomponents\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{561FF41F-62D1-1BC6-3B4D-59DDD3A19102}|schoolattendance.esproj|c:\\users\\iamma\\source\\repos\\schoolattendance\\src\\pages\\signin.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -54,128 +90,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChangeClass.jsx",
-              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\ChangeClass.jsx",
-              "RelativeDocumentMoniker": "src\\pages\\ChangeClass.jsx",
-              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\ChangeClass.jsx",
-              "RelativeToolTip": "src\\pages\\ChangeClass.jsx",
-              "ViewState": "AgIAABwAAAAAAAAAAAAnwIgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-27T12:25:57.627Z",
+              "DocumentIndex": 4,
+              "Title": "AttendanceEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Endpoints\\AttendanceEndpoints.cs",
+              "RelativeDocumentMoniker": "SchoolAttendance.Api\\Endpoints\\AttendanceEndpoints.cs",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Endpoints\\AttendanceEndpoints.cs",
+              "RelativeToolTip": "SchoolAttendance.Api\\Endpoints\\AttendanceEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T20:54:57.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClassRoom.cs",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Models\\ClassRoom.cs",
+              "RelativeDocumentMoniker": "SchoolAttendance.Api\\Models\\ClassRoom.cs",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Models\\ClassRoom.cs",
+              "RelativeToolTip": "SchoolAttendance.Api\\Models\\ClassRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T20:10:58.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "development.md",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\development.md",
+              "RelativeDocumentMoniker": "development.md",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\development.md",
+              "RelativeToolTip": "development.md",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-27T12:50:12.388Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Phonebook.jsx",
-              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\Phonebook.jsx",
-              "RelativeDocumentMoniker": "src\\pages\\Phonebook.jsx",
-              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\Phonebook.jsx",
-              "RelativeToolTip": "src\\pages\\Phonebook.jsx",
-              "ViewState": "AgIAABYAAAAAAAAAAAAIwCEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-27T12:25:43.325Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolAttendance.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Program.cs",
+              "RelativeToolTip": "SchoolAttendance.Api\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAD4vwQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T20:16:48.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "SchoolAttendance.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\appsettings.json",
+              "RelativeToolTip": "SchoolAttendance.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-29T20:16:33.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SchoolDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Data\\SchoolDbContext.cs",
+              "RelativeDocumentMoniker": "SchoolAttendance.Api\\Data\\SchoolDbContext.cs",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Data\\SchoolDbContext.cs",
+              "RelativeToolTip": "SchoolAttendance.Api\\Data\\SchoolDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T20:16:21.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Endpoints\\StudentEndpoints.cs",
+              "RelativeDocumentMoniker": "SchoolAttendance.Api\\Endpoints\\StudentEndpoints.cs",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Endpoints\\StudentEndpoints.cs",
+              "RelativeToolTip": "SchoolAttendance.Api\\Endpoints\\StudentEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T20:54:45.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AttendanceRecord.cs",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Models\\AttendanceRecord.cs",
+              "RelativeDocumentMoniker": "SchoolAttendance.Api\\Models\\AttendanceRecord.cs",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Models\\AttendanceRecord.cs",
+              "RelativeToolTip": "SchoolAttendance.Api\\Models\\AttendanceRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T20:11:40.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "SchoolAttendance.Api\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Models\\Student.cs",
+              "RelativeToolTip": "SchoolAttendance.Api\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T20:11:25.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SchoolAttendance.Api\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\SchoolAttendance.Api\\Models\\User.cs",
+              "RelativeToolTip": "SchoolAttendance.Api\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T20:11:09.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ProfileDropdown.jsx",
               "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\myComponents\\ProfileDropdown.jsx",
               "RelativeDocumentMoniker": "src\\myComponents\\ProfileDropdown.jsx",
               "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\myComponents\\ProfileDropdown.jsx",
               "RelativeToolTip": "src\\myComponents\\ProfileDropdown.jsx",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAnwBYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAIwDEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2026-04-27T12:14:33.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Attendance.jsx",
-              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\Attendance.jsx",
-              "RelativeDocumentMoniker": "src\\pages\\Attendance.jsx",
-              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\Attendance.jsx",
-              "RelativeToolTip": "src\\pages\\Attendance.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-27T12:02:58.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "index.css",
-              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\index.css",
-              "RelativeDocumentMoniker": "src\\index.css",
-              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\index.css",
-              "RelativeToolTip": "src\\index.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-25T16:20:32.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\index.html",
-              "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\index.html",
-              "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-04-25T13:58:09.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\App.jsx",
               "RelativeDocumentMoniker": "src\\App.jsx",
               "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\App.jsx",
               "RelativeToolTip": "src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2026-04-25T13:54:55.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Home.jsx",
-              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\Home.jsx",
-              "RelativeDocumentMoniker": "src\\pages\\Home.jsx",
-              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\Home.jsx",
-              "RelativeToolTip": "src\\pages\\Home.jsx",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAnwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-25T12:18:25.239Z",
+              "DocumentIndex": 13,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\index.css",
+              "RelativeDocumentMoniker": "src\\index.css",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\index.css",
+              "RelativeToolTip": "src\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-25T16:20:32.774Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Navbar.jsx",
-              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\myComponents\\Navbar.jsx",
-              "RelativeDocumentMoniker": "src\\myComponents\\Navbar.jsx",
-              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\myComponents\\Navbar.jsx",
-              "RelativeToolTip": "src\\myComponents\\Navbar.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-25T16:40:59.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "main.jsx",
               "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\main.jsx",
               "RelativeDocumentMoniker": "src\\main.jsx",
@@ -188,7 +276,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
+              "Title": "ChangeClass.jsx",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\ChangeClass.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\ChangeClass.jsx",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\ChangeClass.jsx",
+              "RelativeToolTip": "src\\pages\\ChangeClass.jsx",
+              "ViewState": "AgIAABwAAAAAAAAAAAAnwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-27T12:25:57.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Phonebook.jsx",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\Phonebook.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Phonebook.jsx",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\Phonebook.jsx",
+              "RelativeToolTip": "src\\pages\\Phonebook.jsx",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwCEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-27T12:25:43.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Attendance.jsx",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\Attendance.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Attendance.jsx",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\Attendance.jsx",
+              "RelativeToolTip": "src\\pages\\Attendance.jsx",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAIwAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-27T12:02:58.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-04-25T13:58:09.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\Home.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\Home.jsx",
+              "ToolTip": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\Home.jsx",
+              "RelativeToolTip": "src\\pages\\Home.jsx",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAnwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-25T12:18:25.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "SignIn.jsx",
               "DocumentMoniker": "C:\\Users\\iamma\\source\\repos\\schoolAttendance\\src\\pages\\SignIn.jsx",
               "RelativeDocumentMoniker": "src\\pages\\SignIn.jsx",
